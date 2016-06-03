@@ -1,3 +1,8 @@
+# Version 1.1.0
+
+* Upgrade to rebar3 (Sébastien Fievet)
+* Update to depend on p1_utils 1.0.4 (Sébastien Fievet)
+
 # Version 1.0.3
 
 * Improve error message on syntax error (Evgeny Khramtsov)

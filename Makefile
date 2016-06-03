@@ -1,12 +1,12 @@
 all: src
 
 src:
-	rebar get-deps compile
+	rebar3 compile
 
 clean:
-	rebar clean
+	rebar3 clean
 
-test: all
-	rebar skip_deps=true eunit
+test:
+	rebar3 eunit
 
 .PHONY: clean src all test

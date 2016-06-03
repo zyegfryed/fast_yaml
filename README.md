@@ -18,7 +18,7 @@ headers for LibYaml library to build it.
 
 You can trigger build with:
 
-    ./configure && make
+    make
 
 ### OSX build example
 
@@ -26,14 +26,7 @@ You can install LibYaml and with Homebrew:
 
     brew install libyaml
 
-You can then export environment variable to use LibYaml as installed
-by Homebrew, before issuing compilation commands:
-
-    export LDFLAGS="-L/usr/local/lib"
-    export CFLAGS="-I/usr/local/include"
-    export CPPFLAGS="-I/usr/local/include"
-
-    ./configure && make
+You can then issue the compilation command.
 
 ## Example usage
 
